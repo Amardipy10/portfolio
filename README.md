@@ -1,6 +1,5 @@
 # My Portfolio
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 A cutting-edge solution built with modern technologies.
 
