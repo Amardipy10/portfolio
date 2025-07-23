@@ -38,6 +38,7 @@ const TechStack = () => {
 
   return (
     <div
+      id="skills"
       className="min-h-screen text-white flex flex-col items-center justify-center p-8 relative"
       style={{ backgroundColor: '#1f2a38' }}
     >
