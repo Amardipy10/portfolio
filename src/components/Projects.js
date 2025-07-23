@@ -1,24 +1,29 @@
+import devdocgenImg from './devdocgen.png';
+import carbontrackerImg from './carbontracker.png';
+
 import React from 'react';
 import { Github, ExternalLink, Star } from './icons';
 
 const projects = [
   {
-    id: 1, title: 'AI DevDocGen',
+    id: 1,
+    title: 'AI DevDocGen',
     description: 'AI-powered README generation tool that creates clean, structured documentation in under 15 seconds using Gemini API.',
     tech: ['React.js', 'Node.js', 'Google Gemini API', 'JavaScript'],
     features: ['Generate README.md files for 10+ different projects', 'Professional documentation in under 15 seconds', 'Clean and structured output format'],
-    github: 'https://github.com/Amardip-Yadav/AI-DevDocGen',
+    github: 'https://github.com/Amardipy10/AI-DevDocGen',
     live: 'https://ai-dev-doc-gen.vercel.app/',
-    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop'
+    image: devdocgenImg
   },
   {
-    id: 2, title: 'Carbon Footprint Tracker',
+    id: 2,
+    title: 'Carbon Footprint Tracker',
     description: 'Full-stack web application that calculates carbon emissions based on lifestyle inputs with dynamic visualizations.',
     tech: ['React.js', 'Node.js', 'MySQL', 'JavaScript'],
     features: ['Calculate personal carbon emissions', 'Secure MySQL data storage', 'Dynamic visualizations for eco-awareness'],
-    github: 'https://github.com/Amardip-Yadav/Carbon-Footprint-Tracker',
-    live: '#',
-    image: 'https://images.unsplash.com/photo-1569163139394-de4e4f43e4e5?w=400&h=250&fit=crop'
+    github: 'https://github.com/Amardipy10/CarbonFootprintCalculator',
+    live: 'https://carbon-footprint-calculator-five.vercel.app/',
+    image: carbontrackerImg
   }
 ];
 

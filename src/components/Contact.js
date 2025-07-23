@@ -36,10 +36,10 @@ const Contact = () => {
               <div className="flex items-center"><MapPin className="text-blue-500 mr-4" size={20} /><span>Pune, Maharashtra, India</span></div>
             </div>
             <div className="flex space-x-4 pt-4">
-              <a href="https://github.com/Amardip-Yadav" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"><Github size={20} /></a>
-              <a href="https://www.linkedin.com/in/amardip-yadav-2004/" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"><Linkedin size={20} /></a>
+              <a href="https://github.com/Amardipy10" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"><Github size={20} /></a>
+              <a href="https://www.linkedin.com/in/amardip-yadav/" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"><Linkedin size={20} /></a>
             </div>
-            <a href="/path-to-your-resume.pdf" download className="mt-6 inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-full hover:shadow-lg transition-all duration-300">
+            <a href="https://drive.google.com/file/d/1jaESXK_B1lnSab8_yMiU0BBp7MNdmhpw/view?usp=drive_link" download className="mt-6 inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-full hover:shadow-lg transition-all duration-300">
               <Download size={20} className="mr-2" /> Download Resume
             </a>
           </div>

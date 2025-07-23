@@ -13,10 +13,20 @@ import CustomCursor from './components/CustomCursor';
 import MovingBanner from './components/MovingBanner';
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  // Initialize dark mode with localStorage value or default to true
+  const [darkMode, setDarkMode] = useState(() => {
+    const storedPreference = localStorage.getItem('darkMode');
+    return storedPreference === null ? true : storedPreference === 'true';
+  });
+
   const [activeSection, setActiveSection] = useState('home');
 
-  // Effect to update active section on scroll
+  // Update localStorage whenever darkMode changes
+  useEffect(() => {
+    localStorage.setItem('darkMode', darkMode);
+  }, [darkMode]);
+
+  // Scroll listener to set active section
   useEffect(() => {
     const sectionIds = ['home', 'about', 'skills', 'projects', 'experience', 'contact'];
     const observer = new IntersectionObserver(
@@ -27,7 +37,7 @@ const App = () => {
           }
         });
       },
-      { rootMargin: '-30% 0px -70% 0px' } // Adjust margin to trigger when section is centered
+      { rootMargin: '-30% 0px -70% 0px' }
     );
 
     sectionIds.forEach((id) => {
@@ -57,15 +67,15 @@ const App = () => {
       />
       <main>
         <Hero scrollToSection={scrollToSection} darkMode={darkMode} />
-        <MovingBanner/>
+        <MovingBanner />
         <About />
         <Skills />
         <Projects />
         <Experience />
         <Achievements />
         <Contact />
-        <CustomCursor/>
-        <SmoothScroll/>
+        <CustomCursor />
+        <SmoothScroll />
       </main>
       <Footer />
     </div>
