@@ -38,7 +38,6 @@ A cutting-edge solution built with modern technologies.
 - css
 - javascript
 - tailwind
-- marquee
 
 ## 🔧 Installation
 
