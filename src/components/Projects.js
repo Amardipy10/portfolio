@@ -1,5 +1,7 @@
 import devdocgenImg from './devdocgen.png';
 import carbontrackerImg from './carbontracker.png';
+import gigflowImg from './gigflow.png';
+import klothyxImg from './klothyx.png';
 
 import React from 'react';
 import { Github, ExternalLink, Star } from './icons';
@@ -7,16 +9,38 @@ import { Github, ExternalLink, Star } from './icons';
 const projects = [
   {
     id: 1,
-    title: 'AI DevDocGen',
-    description: 'AI-powered README generation tool that creates clean, structured documentation in under 15 seconds using Gemini API.',
-    tech: ['React.js', 'Node.js', 'Google Gemini API', 'JavaScript'],
-    features: ['Generate README.md files for 10+ different projects', 'Professional documentation in under 15 seconds', 'Clean and structured output format'],
-    github: 'https://github.com/Amardipy10/AI-DevDocGen',
-    live: 'https://ai-dev-doc-gen.vercel.app/',
-    image: devdocgenImg
+    title: 'Klothyx – Modern Fashion Wear',
+    description: 'A modern fashion-focused web application showcasing trendy clothing collections with a clean UI and smooth user experience.',
+    tech: ['React.js', 'Node.js', 'JavaScript', 'CSS / Tailwind','Stripe'],
+    features: [
+      'Stylish and responsive fashion UI',
+      'Product listing with modern layouts',
+      'Smooth navigation and user-friendly design',
+      'Mobile-first and fully responsive'
+    ],
+    github: 'https://github.com/Amardipy10/Klothyx-Style-Wear',
+    live: 'https://klothyx-style-wear-git-main-amardipyadavs-projects.vercel.app/', 
+    image: klothyxImg
   },
   {
     id: 2,
+    title: 'GigFlow',
+    description: 'A full-stack freelance marketplace where clients can post gigs and freelancers can submit bids, featuring secure authentication and atomic hiring logic.',
+    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Tailwind CSS'],
+    features: [
+      'JWT-based authentication using HttpOnly cookies',
+      'Create and browse gigs with search functionality',
+      'Submit and manage bids on gigs',
+      'Atomic hiring process with MongoDB transactions',
+      'Role-based authorization for clients and freelancers',
+      'Post-hire real-time messaging using Socket.io'
+    ],
+    github: 'https://github.com/Amardipy10/Gig-Flow',
+    live: 'https://gig-flow-eta.vercel.app/',
+    image: gigflowImg
+  },
+  {
+    id: 3,
     title: 'Carbon Footprint Tracker',
     description: 'Full-stack web application that calculates carbon emissions based on lifestyle inputs with dynamic visualizations.',
     tech: ['React.js', 'Node.js', 'MySQL', 'JavaScript'],
@@ -24,6 +48,16 @@ const projects = [
     github: 'https://github.com/Amardipy10/CarbonFootprintCalculator',
     live: 'https://carbon-footprint-calculator-five.vercel.app/',
     image: carbontrackerImg
+  },
+  {
+    id: 4,
+    title: 'AI DevDocGen',
+    description: 'AI-powered README generation tool that creates clean, structured documentation in under 15 seconds using Gemini API.',
+    tech: ['React.js', 'Node.js', 'Google Gemini API', 'JavaScript'],
+    features: ['Generate README.md files for 10+ different projects', 'Professional documentation in under 15 seconds', 'Clean and structured output format'],
+    github: 'https://github.com/Amardipy10/AI-DevDocGen',
+    live: 'https://ai-dev-doc-gen.vercel.app/',
+    image: devdocgenImg
   }
 ];
 
