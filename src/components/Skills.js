@@ -10,6 +10,7 @@ import {
 import { IoLogoJavascript } from 'react-icons/io';
 import { SiMysql, SiFigma, SiVercel, SiCplusplus } from 'react-icons/si';
 import { PiDiamondLight } from 'react-icons/pi';
+import { SiExpress, SiMongodb } from "react-icons/si";
 
 const TechStack = () => {
     const icons = [
@@ -30,10 +31,13 @@ const TechStack = () => {
         <SiCplusplus className="text-[#00599C] lg:text-5xl sm:text-4xl text-3xl" />,
         <PiDiamondLight className="text-white" />,
         <SiFigma className="text-[#F24E1E] lg:text-5xl sm:text-4xl text-3xl" />,
-        <PiDiamondLight className="text-white" />,
         <SiVercel className="text-black lg:text-5xl sm:text-4xl text-3xl" />,
         <PiDiamondLight className="text-white" />,
         <FaGithub className="text-[#181717] lg:text-5xl sm:text-4xl text-3xl" />,
+        <PiDiamondLight className="text-white" />,
+        <SiExpress className="text-white lg:text-5xl sm:text-4xl text-3xl" />,
+        <PiDiamondLight className="text-white" />,
+        <SiMongodb className="text-[#47A248] lg:text-5xl sm:text-4xl text-3xl" />,
       ];
 
   return (
