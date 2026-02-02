@@ -13,18 +13,7 @@ import CustomCursor from './components/CustomCursor';
 import MovingBanner from './components/MovingBanner';
 
 const App = () => {
-  // Initialize dark mode with localStorage value or default to true
-  const [darkMode, setDarkMode] = useState(() => {
-    const storedPreference = localStorage.getItem('darkMode');
-    return storedPreference === null ? true : storedPreference === 'true';
-  });
-
   const [activeSection, setActiveSection] = useState('home');
-
-  // Update localStorage whenever darkMode changes
-  useEffect(() => {
-    localStorage.setItem('darkMode', darkMode);
-  }, [darkMode]);
 
   // Scroll listener to set active section
   useEffect(() => {
@@ -58,15 +47,13 @@ const App = () => {
   };
 
   return (
-    <div className={`transition-all duration-500 ${darkMode ? 'dark bg-gray-900 text-gray-100' : 'bg-gray-50 text-gray-800'}`}>
+    <div className="bg-gray-50 text-gray-800">
       <Navbar
-        darkMode={darkMode}
-        setDarkMode={setDarkMode}
         activeSection={activeSection}
         scrollToSection={scrollToSection}
       />
       <main>
-        <Hero scrollToSection={scrollToSection} darkMode={darkMode} />
+        <Hero scrollToSection={scrollToSection} />
         <MovingBanner />
         <About />
         <Skills />
