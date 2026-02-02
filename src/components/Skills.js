@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import {
-  FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3Alt, FaPython, FaDatabase, FaGitAlt, FaGithub, FaFigma
+  FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3Alt, FaPython, FaGitAlt, FaGithub, FaFigma
 } from 'react-icons/fa';
 import {
-  SiTailwindcss, SiMongodb, SiMysql, SiExpress, SiTypescript, SiNextdotjs, SiPostman
+  SiTailwindcss, SiMongodb, SiMysql, SiExpress,SiPostman
 } from 'react-icons/si';
 
 const skillsData = [
