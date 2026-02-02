@@ -1,71 +1,46 @@
 # My Portfolio
 
+A modern, interactive portfolio website showcasing my work and skills.
 
-A cutting-edge solution built with modern technologies.
+## Live Demo
 
-## 🚀 Live Demo
+[View Live Site](https://portfolio-delta-red-i37tqo3z99.vercel.app/)
 
-[Check out the live project here!](https://portfolio-delta-red-i37tqo3z99.vercel.app/)
+## Features
 
-## 📋 Table of Contents
+- Interactive contact form with name, email, and message fields
+- Thank-you confirmation after form submission
+- Direct contact info with clickable email, phone, and location links
+- Social media links (GitHub, LinkedIn) and downloadable resume
 
-- [Features](#-features)
-- [Technology Stack](#-technology-stack)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
-
-## ✨ Features
-
-- ✅ Interactive Contact Form – Users can input their name
-- email
-- and message to get in touch directly.
-	2.	📬 Form Submission Feedback – Shows a thank-you message on successful submission for better UX.
-	3.	🌐 Direct Contact Links – Includes clickable email
-- phone
-- and location info with icons.
-	4.	🔗 Social + Resume Links – GitHub
-- LinkedIn
-- and resume download button integrated for easy access.
-
-## 💻 Technology Stack
+## Tech Stack
 
 - React
-- react-lucid
-- html
-- css
-- javascript
-- tailwind
+- Tailwind CSS
+- Lucide React (icons)
+- JavaScript, HTML, CSS
 
-## 🔧 Installation
-
-Follow these steps to set up the project locally:
-
+## Installation
 ```bash
-# 1. Clone the repository
+# Clone the repo
 git clone https://github.com/Amardipy10/portfolio
 
-# 2. Navigate to the project directory
+# Go to project folder
 cd my-portfolio
 
-# 3. Install dependencies
+# Install packages
 npm install
 ```
 
-## 🏃‍ Usage
+## Usage
 
-To run the project in a development environment, use the following command:
-
+Run the development server:
 ```bash
 npm run dev
 ```
 
+## Contact
 
-
-## 📬 Contact
-
-Amardip Yadav - [amardipy10@gmail.com](mailto:amardipy10@gmail.com)
-Project Link: [https://github.com/Amardipy10/portfolio](https://github.com/Amardipy10/portfolio)
-
+**Amardip Yadav**  
+Email: amardipy10@gmail.com  
+GitHub: [github.com/Amardipy10/portfolio](https://github.com/Amardipy10/portfolio)
