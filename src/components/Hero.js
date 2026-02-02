@@ -257,7 +257,7 @@ const Hero = ({ scrollToSection }) => {
       >
         <motion.div variants={itemVariants} className="mb-6">
           <span className="inline-block px-4 py-2 rounded-full text-sm font-medium bg-purple-500/10 text-purple-600 border border-purple-500/20">
-            👋 Welcome to my portfolio
+            Welcome to My Portfolio
           </span>
         </motion.div>
 
