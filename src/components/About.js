@@ -134,7 +134,7 @@ const About = () => {
                 whileHover={{ scale: 1.05, y: -5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <div className="text-4xl font-bold text-purple-500">8.39</div>
+                <div className="text-4xl font-bold text-purple-500">8.6</div>
                 <div className="text-sm text-gray-500 mt-1">CGPA</div>
               </motion.div>
             </div>

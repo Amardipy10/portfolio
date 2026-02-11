@@ -17,7 +17,7 @@ const experiences = [
     year: '2023 - 2027',
     title: 'B.E. Computer Engineering',
     company: 'Army Institute of Technology, Pune',
-    description: 'CGPA: 8.39 | Focus on Software Development, Data Structures, and Algorithms.',
+    description: 'CGPA: 8.6 | Focus on Software Development, Data Structures, and Algorithms.',
     icon: GraduationCap,
     color: 'purple'
   }
